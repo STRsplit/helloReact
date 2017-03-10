@@ -1,0 +1,21 @@
+Default values:
+- set default props using a getDefaultProps function and set the default props that will be entered if no additional props are passed in.
+
+- props get passed in, state is internally maintained by the component
+
+Nesting Components:
+- create the components above the main components
+- reference the components with their name inside of <Example/>
+
+
+Two types of components:
+- presentational component - renders something to the browser.
+- container components - used to create the structure where presentational components are rendered.
+
+
+Parent function -
+use handle’EVENT’ then for child name it on'EVENT’
+
+Updating props value not allowed in React - can only update the state of the prop in the component.
+
+
